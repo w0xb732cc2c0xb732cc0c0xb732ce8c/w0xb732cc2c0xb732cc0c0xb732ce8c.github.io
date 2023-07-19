@@ -2277,7 +2277,7 @@ const _13teams =
         KEY_NAME     : "Yasser Zlaigi",
         KEY_LOGIN    : "yzlaigi",
         KEY_IMAGE    : "c6b782d6f38995ee9d774d8368218b4d/yzlaigi.jpg",
-        KEY_LEVEL    : 2.35,
+        KEY_LEVEL    : 2.48,
         KEY_TIME     : 0,
     },
     {
