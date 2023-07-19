@@ -2653,7 +2653,7 @@ const _13teams =
         KEY_NAME     : "Nabil Azouz",
         KEY_LOGIN    : "nazouz",
         KEY_IMAGE    : "70127b2c9541672106595ef230403e40/nazouz.jpg",
-        KEY_LEVEL    : 3.06,
+        KEY_LEVEL    : 3.56,
         KEY_TIME     : 0,
     },
     {
@@ -3293,7 +3293,7 @@ const _13teams =
         KEY_NAME     : "Mohamed Amine Maila",
         KEY_LOGIN    : "mmaila",
         KEY_IMAGE    : "e31c70e06881389aca7ff3c37b389bff/mmaila.jpg",
-        KEY_LEVEL    : 6.07,
+        KEY_LEVEL    : 6.15,
         KEY_TIME     : 0,
     },
     {
