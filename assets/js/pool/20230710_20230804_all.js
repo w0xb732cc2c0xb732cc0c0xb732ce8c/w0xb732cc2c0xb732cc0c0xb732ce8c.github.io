@@ -3285,7 +3285,7 @@ const _13teams =
         KEY_NAME     : "Mohammed Zeggaf",
         KEY_LOGIN    : "mzeggaf",
         KEY_IMAGE    : "2a42e12b30bb8b3f013d50c174f61cc9/mzeggaf.jpg",
-        KEY_LEVEL    : 5.56,
+        KEY_LEVEL    : 5.67,
         KEY_TIME     : 0,
     },
     {
@@ -3525,7 +3525,7 @@ const _13teams =
         KEY_NAME     : "Aymen Zainabi",
         KEY_LOGIN    : "azainabi",
         KEY_IMAGE    : "59ed7554e4e0abde85a126e23ccf57dc/azainabi.jpg",
-        KEY_LEVEL    : 3.99,
+        KEY_LEVEL    : 4.36,
         KEY_TIME     : 0,
     },
     {
