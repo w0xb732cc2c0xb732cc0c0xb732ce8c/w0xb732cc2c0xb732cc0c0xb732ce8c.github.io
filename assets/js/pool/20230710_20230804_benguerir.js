@@ -245,7 +245,7 @@ const _13teams =
         KEY_NAME     : "Youssef Regragui",
         KEY_LOGIN    : "yregragu",
         KEY_IMAGE    : "4cfc76b5035d2a43f101976de55a3d33/yregragu.jpeg",
-        KEY_LEVEL    : 3.23,
+        KEY_LEVEL    : 3.53,
         KEY_TIME     : 0,
     },
     {

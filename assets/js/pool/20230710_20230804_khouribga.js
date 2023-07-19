@@ -165,7 +165,7 @@ const _13teams =
         KEY_NAME     : "El Mehdi El Brahmi",
         KEY_LOGIN    : "eel-brah",
         KEY_IMAGE    : "56dca9ef4097e6e1a6f2904ee0534a3b/eel-brah.jpg",
-        KEY_LEVEL    : 4.33,
+        KEY_LEVEL    : 4.76,
         KEY_TIME     : 0,
     },
     {
@@ -469,7 +469,7 @@ const _13teams =
         KEY_NAME     : "Taha Besbess",
         KEY_LOGIN    : "tbesbess",
         KEY_IMAGE    : "3462581a15d69c47900cdda1e800133f/tbesbess.jpg",
-        KEY_LEVEL    : 2.02,
+        KEY_LEVEL    : 2.39,
         KEY_TIME     : 0,
     },
     {
