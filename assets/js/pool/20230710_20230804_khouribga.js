@@ -77,7 +77,7 @@ const _13teams =
         KEY_NAME     : "Achraf Ibn Cheikh",
         KEY_LOGIN    : "aibn-che",
         KEY_IMAGE    : "42272a74e2a2e694127bd82c7cef9b9d/aibn-che.jpg",
-        KEY_LEVEL    : 3.12,
+        KEY_LEVEL    : 3.43,
         KEY_TIME     : 0,
     },
     {
@@ -1965,7 +1965,7 @@ const _13teams =
         KEY_NAME     : "Hicham Driouch",
         KEY_LOGIN    : "hidriouc",
         KEY_IMAGE    : "ef5ead50295ad196f2049a3692f1427e/hidriouc.jpg",
-        KEY_LEVEL    : 3.31,
+        KEY_LEVEL    : 3.64,
         KEY_TIME     : 0,
     },
     {
@@ -2245,7 +2245,7 @@ const _13teams =
         KEY_NAME     : "Zakariae Heddachi",
         KEY_LOGIN    : "zaheddac",
         KEY_IMAGE    : "8b83783963a1bc29ee8b1c4598ae0494/zaheddac.jpg",
-        KEY_LEVEL    : 3.63,
+        KEY_LEVEL    : 4.06,
         KEY_TIME     : 0,
     },
     {
