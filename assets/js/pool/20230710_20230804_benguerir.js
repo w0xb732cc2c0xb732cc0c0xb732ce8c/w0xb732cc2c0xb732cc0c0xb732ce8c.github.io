@@ -517,7 +517,7 @@ const _13teams =
         KEY_NAME     : "Ayoub Ogbi",
         KEY_LOGIN    : "aogbi",
         KEY_IMAGE    : "9c5c0ea269549bd54f2fdc6353fe7c32/aogbi.jpeg",
-        KEY_LEVEL    : 3.49,
+        KEY_LEVEL    : 3.87,
         KEY_TIME     : 0,
     },
     {
@@ -917,7 +917,7 @@ const _13teams =
         KEY_NAME     : "Adnane Mouhandiz",
         KEY_LOGIN    : "amouhand",
         KEY_IMAGE    : "a0b2fd9461e86c4fb7cb267ee46af2cd/amouhand.jpeg",
-        KEY_LEVEL    : 3.06,
+        KEY_LEVEL    : 3.51,
         KEY_TIME     : 0,
     },
     {

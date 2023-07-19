@@ -765,7 +765,7 @@ const _13teams =
         KEY_NAME     : "Abdelkabir Soudri",
         KEY_LOGIN    : "asoudri",
         KEY_IMAGE    : "443ea4ea2b0d8f735b56c26b16d2ed6c/asoudri.jpg",
-        KEY_LEVEL    : 1.63,
+        KEY_LEVEL    : 2.15,
         KEY_TIME     : 0,
     },
     {
