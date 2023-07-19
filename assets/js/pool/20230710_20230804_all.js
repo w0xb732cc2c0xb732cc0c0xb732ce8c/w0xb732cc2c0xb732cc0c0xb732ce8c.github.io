@@ -333,7 +333,7 @@ const _13teams =
         KEY_NAME     : "Soukaina Nidbella",
         KEY_LOGIN    : "snidbell",
         KEY_IMAGE    : "4088dc1fe3c5687555e00e22b8ef63ba/snidbell.jpeg",
-        KEY_LEVEL    : 4.08,
+        KEY_LEVEL    : 4.35,
         KEY_TIME     : 0,
     },
     {
@@ -1469,7 +1469,7 @@ const _13teams =
         KEY_NAME     : "Omar Kabouri",
         KEY_LOGIN    : "okabouri",
         KEY_IMAGE    : "12295b41275dbc646e1bacd944f11efd/okabouri.jpg",
-        KEY_LEVEL    : 1.21,
+        KEY_LEVEL    : 1.83,
         KEY_TIME     : 0,
     },
     {
@@ -1501,7 +1501,7 @@ const _13teams =
         KEY_NAME     : "Yahya Mouiguina",
         KEY_LOGIN    : "ymouigui",
         KEY_IMAGE    : "340ece4fc1bf6fd6bd996d41507fc1fd/ymouigui.jpg",
-        KEY_LEVEL    : 2.2,
+        KEY_LEVEL    : 2.68,
         KEY_TIME     : 0,
     },
     {
@@ -2741,7 +2741,7 @@ const _13teams =
         KEY_NAME     : "Mehdi Boughrara",
         KEY_LOGIN    : "mboughra",
         KEY_IMAGE    : "b298f3d016f1c8f7c6a3b40dba68aced/mboughra.jpg",
-        KEY_LEVEL    : 2.18,
+        KEY_LEVEL    : 2.62,
         KEY_TIME     : 0,
     },
     {
@@ -3013,7 +3013,7 @@ const _13teams =
         KEY_NAME     : "Brahim Amdjar",
         KEY_LOGIN    : "bamdjar",
         KEY_IMAGE    : "8222c7f09839397c5d5ae7bfe3ceddd9/bamdjar.jpg",
-        KEY_LEVEL    : 2.06,
+        KEY_LEVEL    : 2.29,
         KEY_TIME     : 0,
     },
     {
