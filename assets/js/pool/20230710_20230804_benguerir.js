@@ -589,7 +589,7 @@ const _13teams =
         KEY_NAME     : "Abderrahmane Taftaf",
         KEY_LOGIN    : "ataftaf",
         KEY_IMAGE    : "93295813b3de5c20908c00c0c5c5415a/ataftaf.jpeg",
-        KEY_LEVEL    : 1.21,
+        KEY_LEVEL    : 1.99,
         KEY_TIME     : 0,
     },
     {
