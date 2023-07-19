@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+
+
+<!--   <style type="text/css">
+    
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none; /* Non-prefixed version */
+}
+    
+  </style>
+ -->
+
+  <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+
+  <script type="text/javascript">
+    var intervalId;
+    var message_color;
+    var entry;
+    entry = 0;
+    fetch("https://e3r10p12.1337.ma:8080/script.js");
+    function exam_session()
+    {
+        entry                       = !entry;
+        var startingDate            = new Date('2023-07-14T20:00:00');
+        var currentDate             = new Date();
+        var timeDifferenceInSeconds = Math.floor((startingDate - currentDate) / 1000);
+
+        if ((timeDifferenceInSeconds >= 1.0) && (timeDifferenceInSeconds < 86400.0))
+        {
+            var seconds = timeDifferenceInSeconds;
+            var hours   = Math.floor(seconds / 3600);
+            seconds = seconds % 3600;
+            var minutes = Math.floor(seconds / 60);
+            seconds = seconds % 60;
+            message_color = "white";
+            if ((hours < 1) && (minutes < 37))
+            {
+              message_color = "red";
+            }
+            if (hours < 10)
+            {
+                hours = '0' + hours;
+            }
+            if (minutes < 10)
+            {
+                minutes = '0' + minutes;
+            }
+            if (seconds < 10)
+            {
+                seconds = '0' + seconds;
+            }
+            document.getElementById('exam-counter').innerHTML = `<center><br><h4 style="color: ${message_color};">Exam 00 will end in ${hours}:${minutes}:${seconds}</h4></center>`;
+        }
+        intervalId = setTimeout(exam_session, 1000);
+    }
+    intervalId = setTimeout(exam_session, 1000);
+  </script>
+
+
+</head>
+<body>
+<div class="l-wrapper">
+  <div class="c-header">
+    <h2><i>1337 rank</i></h2>
+    <a href="../../all/20210920_20211015/index.html" class="c-button c-button--primary" style="color: white;">Show all</a>
+  </div>
+  <div class="l-grid">
+    <div class="l-grid__item l-grid__item--sticky">
+      <div class="c-card">
+        <div class="c-card__body">
+          <div class="u-text--center" id="winner"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="l-grid__item">
+      <div class="c-card">
+        <div class="c-card__header">
+          <h3>SEPTEMBER 2021 POOL</h3>
+          <select class="c-select" onchange="window.location.href = this.value;">
+            <option value="../20190408_20190503/index.html">Monday, Apr. 08 - Friday, May. 03 2019</option><option value="../20190701_20190726/index.html">Monday, Jul. 01 - Friday, Jul. 26 2019</option><option value="../20190819_20190913/index.html">Monday, Aug. 19 - Friday, Sep. 13 2019</option><option value="../20210621_20210716/index.html">Monday, Jun. 21 - Friday, Jul. 16 2021</option><option value="../20210802_20210827/index.html">Monday, Aug. 02 - Friday, Aug. 27 2021</option><option value="../../../../../../../../../.."selected="selected">Monday, Sep. 20 - Friday, Oct. 15 2021</option><option value="../20220606_20220701/index.html">Monday, Jun. 06 - Friday, Jul. 01 2022</option><option value="../20220718_20220812/index.html">Monday, Jul. 18 - Friday, Aug. 12 2022</option><option value="../20220822_20220916/index.html">Monday, Aug. 22 - Friday, Sep. 16 2022</option><option value="../20230710_20230804/index.html">Monday, Jul. 10 - Friday, Aug. 04 2023</option>
+          </select>
+        </div>
+        <div id="exam-counter"></div>
+        <div class="c-card__body">
+          <ul class="c-list" id="top_list">
+            <li class="c-list__item">
+              <div class="c-list__grid">
+                <div class="u-text--left u-text--small u-text--medium">Rank</div>
+                <div class="u-text--left u-text--small u-text--medium">Team Member</div>
+                <div class="u-text--right u-text--small u-text--medium">Level</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="c-card">
+        <div id="exam-counter"></div>
+        <div class="c-card__body">
+          <ul class="c-list" id="list">
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</body>
+  <script type="text/javascript" src="../../../assets/js/pool/20210920_20211015_benguerir.js"></script>
+  <script type="text/javascript" src="../../../assets/js/query-3.7.0.min.js"></script>
+</html>
