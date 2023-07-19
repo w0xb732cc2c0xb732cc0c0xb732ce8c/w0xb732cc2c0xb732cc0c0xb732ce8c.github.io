@@ -2709,7 +2709,7 @@ const _13teams =
         KEY_NAME     : "El Hossein El Ghalbzouri",
         KEY_LOGIN    : "eel-ghal",
         KEY_IMAGE    : "18d11b5d867aa4f122fa64c53fe88bd0/eel-ghal.jpg",
-        KEY_LEVEL    : 3.55,
+        KEY_LEVEL    : 3.86,
         KEY_TIME     : 0,
     },
     {
@@ -3181,7 +3181,7 @@ const _13teams =
         KEY_NAME     : "Brahim Elguabdi",
         KEY_LOGIN    : "belguabd",
         KEY_IMAGE    : "6669992fa69a36a0e8bbfc7cb65f3bec/belguabd.jpg",
-        KEY_LEVEL    : 2.57,
+        KEY_LEVEL    : 3.01,
         KEY_TIME     : 0,
     },
     {
