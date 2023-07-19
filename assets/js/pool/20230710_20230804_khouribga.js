@@ -293,7 +293,7 @@ const _13teams =
         KEY_NAME     : "Ayoub Ameur",
         KEY_LOGIN    : "aameur",
         KEY_IMAGE    : "8fcfa09861e8c3db2da3a773de877052/aameur.jpg",
-        KEY_LEVEL    : 1.21,
+        KEY_LEVEL    : 1.6,
         KEY_TIME     : 0,
     },
     {

@@ -5,7 +5,7 @@ const _13teams =
         KEY_NAME     : "Achraf Ibn Tahaikt",
         KEY_LOGIN    : "aibn-tah",
         KEY_IMAGE    : "c4974ef1ae39d528a752506048450a73/aibn-tah.jpeg",
-        KEY_LEVEL    : 3.18,
+        KEY_LEVEL    : 3.36,
         KEY_TIME     : 0,
     },
     {
@@ -1061,7 +1061,7 @@ const _13teams =
         KEY_NAME     : "Abdelghani Amksa",
         KEY_LOGIN    : "abamksa",
         KEY_IMAGE    : "51a3daec6fd895d32cc9ca3bd0e5ddda/abamksa.JPG",
-        KEY_LEVEL    : 4.35,
+        KEY_LEVEL    : 4.88,
         KEY_TIME     : 0,
     },
     {
