@@ -71,7 +71,7 @@ body {
     function exam_end_session()
     {
         entry                       = !entry;
-        var startingDate            = new Date('2023-07-21T16:00:00');
+        var startingDate            = new Date('2023-07-21T20:00:00');
         var currentDate             = new Date();
         var timeDifferenceInSeconds = Math.floor((startingDate - currentDate) / 1000);
 
@@ -101,7 +101,7 @@ body {
             }
             document.getElementById('exam-counter').innerHTML = `<center><br><h4 style="color: ${message_color};">Exam 01 will end in ${hours}H${minutes}M${seconds}S</h4></center>`;
         }
-        exam_start_id = setTimeout(exam_end_session, 1000);
+        exam_end_id = setTimeout(exam_end_session, 1000);
     }
     exam_end_id = setTimeout(exam_end_session, 1000);
 
