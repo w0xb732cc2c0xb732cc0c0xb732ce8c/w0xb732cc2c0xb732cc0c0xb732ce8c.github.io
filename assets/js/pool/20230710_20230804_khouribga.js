@@ -5,7 +5,7 @@ const _13teams =
         KEY_NAME     : "Zouhair Grir",
         KEY_LOGIN    : "zgrir",
         KEY_IMAGE    : "c5423419ab7bbebc71868bef40925088/zgrir.jpg",
-        KEY_LEVEL    : 2.43,
+        KEY_LEVEL    : 2.87,
         KEY_TIME     : 0,
     },
     {
@@ -21,7 +21,7 @@ const _13teams =
         KEY_NAME     : "Kamal Falete",
         KEY_LOGIN    : "kfalete",
         KEY_IMAGE    : "7c127bdd58efda92151f3ac4a790fcba/kfalete.jpg",
-        KEY_LEVEL    : 1.91,
+        KEY_LEVEL    : 2.44,
         KEY_TIME     : 0,
     },
     {
@@ -85,7 +85,7 @@ const _13teams =
         KEY_NAME     : "Mohammed Hilali",
         KEY_LOGIN    : "mohilali",
         KEY_IMAGE    : "e8917f3064f9f9239236b77b52cec18f/mohilali.jpg",
-        KEY_LEVEL    : 4.55,
+        KEY_LEVEL    : 4.94,
         KEY_TIME     : 0,
     },
     {
@@ -117,7 +117,7 @@ const _13teams =
         KEY_NAME     : "Fairouz Zejli",
         KEY_LOGIN    : "faizejli",
         KEY_IMAGE    : "247ed84f91e2eb501f19624ec182ff76/faizejli.jpg",
-        KEY_LEVEL    : 0.95,
+        KEY_LEVEL    : 1.42,
         KEY_TIME     : 0,
     },
     {
@@ -125,7 +125,7 @@ const _13teams =
         KEY_NAME     : "Yasser Boutslighoi",
         KEY_LOGIN    : "yboutsli",
         KEY_IMAGE    : "22f373d9715a562fe6491372040b1a6d/yboutsli.jpg",
-        KEY_LEVEL    : 4.52,
+        KEY_LEVEL    : 5.05,
         KEY_TIME     : 0,
     },
     {
@@ -165,7 +165,7 @@ const _13teams =
         KEY_NAME     : "El Mehdi El Brahmi",
         KEY_LOGIN    : "eel-brah",
         KEY_IMAGE    : "56dca9ef4097e6e1a6f2904ee0534a3b/eel-brah.jpg",
-        KEY_LEVEL    : 4.76,
+        KEY_LEVEL    : 5.26,
         KEY_TIME     : 0,
     },
     {
@@ -181,7 +181,7 @@ const _13teams =
         KEY_NAME     : "Yassine El Baraka",
         KEY_LOGIN    : "yel-bara",
         KEY_IMAGE    : "212b6438578f9591955043800ba05234/yel-bara.jpg",
-        KEY_LEVEL    : 1.78,
+        KEY_LEVEL    : 2.18,
         KEY_TIME     : 0,
     },
     {
@@ -189,7 +189,7 @@ const _13teams =
         KEY_NAME     : "Abdelhamid Fadel",
         KEY_LOGIN    : "afadel",
         KEY_IMAGE    : "4337113d955fc6463ad807752d022a72/afadel.jpg",
-        KEY_LEVEL    : 5.88,
+        KEY_LEVEL    : 6.6,
         KEY_TIME     : 0,
     },
     {
@@ -317,7 +317,7 @@ const _13teams =
         KEY_NAME     : "Ali Khbiri",
         KEY_LOGIN    : "akhbiri",
         KEY_IMAGE    : "a3d1abd586e78ec9e533b6545b143b4f/akhbiri.jpg",
-        KEY_LEVEL    : 2.5,
+        KEY_LEVEL    : 2.94,
         KEY_TIME     : 0,
     },
     {
@@ -413,7 +413,7 @@ const _13teams =
         KEY_NAME     : "Marouan Doulahiane",
         KEY_LOGIN    : "mdoulahi",
         KEY_IMAGE    : "d8df36918cd6ff97d4b6148714a1bf83/mdoulahi.jpg",
-        KEY_LEVEL    : 3.98,
+        KEY_LEVEL    : 4.41,
         KEY_TIME     : 0,
     },
     {
@@ -501,7 +501,7 @@ const _13teams =
         KEY_NAME     : "Ahmed Mokhtari",
         KEY_LOGIN    : "amokhtar",
         KEY_IMAGE    : "ae687c301790fba2d4afed0ff1d946d4/amokhtar.jpg",
-        KEY_LEVEL    : 5.35,
+        KEY_LEVEL    : 5.83,
         KEY_TIME     : 0,
     },
     {
@@ -541,7 +541,7 @@ const _13teams =
         KEY_NAME     : "Anouar El Harami",
         KEY_LOGIN    : "ael-hara",
         KEY_IMAGE    : "92a0d22b30af81e9c9bf82b06b44f0c0/ael-hara.jpg",
-        KEY_LEVEL    : 3.66,
+        KEY_LEVEL    : 3.96,
         KEY_TIME     : 0,
     },
     {
@@ -589,7 +589,7 @@ const _13teams =
         KEY_NAME     : "Lalla Soubai",
         KEY_LOGIN    : "lsoubai",
         KEY_IMAGE    : "db0e419cd8d1252a7fcf04f01c9a4b68/lsoubai.jpg",
-        KEY_LEVEL    : 2.02,
+        KEY_LEVEL    : 2.39,
         KEY_TIME     : 0,
     },
     {
@@ -613,7 +613,7 @@ const _13teams =
         KEY_NAME     : "El Ghali Wali Alami",
         KEY_LOGIN    : "ewali-al",
         KEY_IMAGE    : "67fd3711b9970b77c2ab87060c39e8c9/ewali-al.jpg",
-        KEY_LEVEL    : 2.66,
+        KEY_LEVEL    : 3.01,
         KEY_TIME     : 0,
     },
     {
@@ -629,7 +629,7 @@ const _13teams =
         KEY_NAME     : "Fatima Choukri",
         KEY_LOGIN    : "fchoukri",
         KEY_IMAGE    : "82295725988dad828a69796d7c5e3508/fchoukri.jpg",
-        KEY_LEVEL    : 1.08,
+        KEY_LEVEL    : 2.14,
         KEY_TIME     : 0,
     },
     {
@@ -645,7 +645,7 @@ const _13teams =
         KEY_NAME     : "Yassir El Yaqine",
         KEY_LOGIN    : "yel-yaqi",
         KEY_IMAGE    : "22f633c9d69ef9a4da4d3af75ba3854a/yel-yaqi.jpg",
-        KEY_LEVEL    : 4.7,
+        KEY_LEVEL    : 5.34,
         KEY_TIME     : 0,
     },
     {
@@ -749,7 +749,7 @@ const _13teams =
         KEY_NAME     : "Hamza El Asli",
         KEY_LOGIN    : "hel-asli",
         KEY_IMAGE    : "02baf776dfac12137601e01ef06497ec/hel-asli.jpg",
-        KEY_LEVEL    : 3.81,
+        KEY_LEVEL    : 3.87,
         KEY_TIME     : 0,
     },
     {
@@ -813,7 +813,7 @@ const _13teams =
         KEY_NAME     : "Bilal Eddinaoui",
         KEY_LOGIN    : "beddinao",
         KEY_IMAGE    : "15a5615203c8256eb6fa58f7679f4514/beddinao.jpg",
-        KEY_LEVEL    : 3.81,
+        KEY_LEVEL    : 4.23,
         KEY_TIME     : 0,
     },
     {
@@ -989,7 +989,7 @@ const _13teams =
         KEY_NAME     : "Abdelmounim Sedoun",
         KEY_LOGIN    : "asedoun",
         KEY_IMAGE    : "175ad3db5ea02fd5d916cbaabfccfb78/asedoun.jpg",
-        KEY_LEVEL    : 3.47,
+        KEY_LEVEL    : 3.59,
         KEY_TIME     : 0,
     },
     {
@@ -1021,7 +1021,7 @@ const _13teams =
         KEY_NAME     : "Adnan Elbouabi",
         KEY_LOGIN    : "aelbouab",
         KEY_IMAGE    : "7e8c22c91bfd161efd60378589a7d59c/aelbouab.jpg",
-        KEY_LEVEL    : 2.51,
+        KEY_LEVEL    : 3.08,
         KEY_TIME     : 0,
     },
     {
@@ -1029,7 +1029,7 @@ const _13teams =
         KEY_NAME     : "Mostafa Chiba",
         KEY_LOGIN    : "mochiba",
         KEY_IMAGE    : "56e1d17fbb1c92d4ded0b3c28e807460/mochiba.jpg",
-        KEY_LEVEL    : 2.65,
+        KEY_LEVEL    : 3.2,
         KEY_TIME     : 0,
     },
     {
@@ -1077,7 +1077,7 @@ const _13teams =
         KEY_NAME     : "Aymane Bzaiz",
         KEY_LOGIN    : "abzaiz",
         KEY_IMAGE    : "07c1162c0495120b45fa7f00454273dc/abzaiz.jpg",
-        KEY_LEVEL    : 4.83,
+        KEY_LEVEL    : 4.91,
         KEY_TIME     : 0,
     },
     {
@@ -1149,7 +1149,7 @@ const _13teams =
         KEY_NAME     : "Taha Ouahmane",
         KEY_LOGIN    : "touahman",
         KEY_IMAGE    : "3a68f616a0fde1e007fb679d1fb86e41/touahman.jpg",
-        KEY_LEVEL    : 3.18,
+        KEY_LEVEL    : 3.5,
         KEY_TIME     : 0,
     },
     {
@@ -1181,7 +1181,7 @@ const _13teams =
         KEY_NAME     : "Abdallah Kouba",
         KEY_LOGIN    : "abkouba",
         KEY_IMAGE    : "84a9a35009ea5c971af5bc27aeb9458b/abkouba.jpg",
-        KEY_LEVEL    : 2.22,
+        KEY_LEVEL    : 2.66,
         KEY_TIME     : 0,
     },
     {
@@ -1237,7 +1237,7 @@ const _13teams =
         KEY_NAME     : "Mohamed Kaoukine",
         KEY_LOGIN    : "mkaoukin",
         KEY_IMAGE    : "d891e439c9adbf68706cdc9e97df39cc/mkaoukin.jpg",
-        KEY_LEVEL    : 2.5,
+        KEY_LEVEL    : 2.87,
         KEY_TIME     : 0,
     },
     {
@@ -1245,7 +1245,7 @@ const _13teams =
         KEY_NAME     : "Ayoub Ait El Aouad",
         KEY_LOGIN    : "ayait-el",
         KEY_IMAGE    : "dfd25ee32224c5141368c4aec9af57c3/ayait-el.jpg",
-        KEY_LEVEL    : 4.83,
+        KEY_LEVEL    : 5.33,
         KEY_TIME     : 0,
     },
     {
@@ -1261,7 +1261,7 @@ const _13teams =
         KEY_NAME     : "Soulaimane Bouabid",
         KEY_LOGIN    : "sbouabid",
         KEY_IMAGE    : "01018ad797553b73e09f4e94882fdce9/sbouabid.jpg",
-        KEY_LEVEL    : 3.47,
+        KEY_LEVEL    : 3.98,
         KEY_TIME     : 0,
     },
     {
@@ -1605,7 +1605,7 @@ const _13teams =
         KEY_NAME     : "Wassim Oucouc",
         KEY_LOGIN    : "waoucouc",
         KEY_IMAGE    : "7d4bb649d3506796dbd2f79260ce8747/waoucouc.jpg",
-        KEY_LEVEL    : 3.38,
+        KEY_LEVEL    : 3.68,
         KEY_TIME     : 0,
     },
     {
@@ -1717,7 +1717,7 @@ const _13teams =
         KEY_NAME     : "Mohammed Amine El Fathi",
         KEY_LOGIN    : "moel-fat",
         KEY_IMAGE    : "c124022e91bede6ab2db004c43b119a9/moel-fat.jpg",
-        KEY_LEVEL    : 3.69,
+        KEY_LEVEL    : 4.12,
         KEY_TIME     : 0,
     },
     {
@@ -1741,7 +1741,7 @@ const _13teams =
         KEY_NAME     : "Mohamed Regrag",
         KEY_LOGIN    : "mregrag",
         KEY_IMAGE    : "08ee19ff5e4cc4d8393cf1a77dd05467/mregrag.jpg",
-        KEY_LEVEL    : 2.66,
+        KEY_LEVEL    : 3.03,
         KEY_TIME     : 0,
     },
     {
@@ -1773,7 +1773,7 @@ const _13teams =
         KEY_NAME     : "Yassine Zaazaa",
         KEY_LOGIN    : "yzaazaa",
         KEY_IMAGE    : "f1dd45a24f294c7253e4d5eafc90a799/yzaazaa.jpg",
-        KEY_LEVEL    : 5.58,
+        KEY_LEVEL    : 6.05,
         KEY_TIME     : 0,
     },
     {
@@ -1845,7 +1845,7 @@ const _13teams =
         KEY_NAME     : "Hicham Benoukaiss",
         KEY_LOGIN    : "hibenouk",
         KEY_IMAGE    : "b4bcda2d41533e2f4627bf2375d74b8e/hibenouk.jpg",
-        KEY_LEVEL    : 4.01,
+        KEY_LEVEL    : 4.4,
         KEY_TIME     : 0,
     },
     {
@@ -1861,7 +1861,7 @@ const _13teams =
         KEY_NAME     : "Ismail Jaija",
         KEY_LOGIN    : "ijaija",
         KEY_IMAGE    : "7d461ee2980d992a56fd03e51ddaedd0/ijaija.jpg",
-        KEY_LEVEL    : 4.16,
+        KEY_LEVEL    : 4.28,
         KEY_TIME     : 0,
     },
     {
@@ -1893,7 +1893,7 @@ const _13teams =
         KEY_NAME     : "Aimane Jadid",
         KEY_LOGIN    : "ajadid",
         KEY_IMAGE    : "26d2fdbb398fbf2b3a15e3784b85d6b8/ajadid.jpg",
-        KEY_LEVEL    : 1.67,
+        KEY_LEVEL    : 2.06,
         KEY_TIME     : 0,
     },
     {
@@ -2013,7 +2013,7 @@ const _13teams =
         KEY_NAME     : "Abdelhak El Gadyry",
         KEY_LOGIN    : "ael-gady",
         KEY_IMAGE    : "d81e2774cf65dfeda9d6c1cbead1096b/ael-gady.jpg",
-        KEY_LEVEL    : 3.32,
+        KEY_LEVEL    : 3.77,
         KEY_TIME     : 0,
     },
     {
@@ -2357,7 +2357,7 @@ const _13teams =
         KEY_NAME     : "Othmane Bouchta",
         KEY_LOGIN    : "obouchta",
         KEY_IMAGE    : "ee6c84dde4752670840c9348d69a4fd4/obouchta.jpg",
-        KEY_LEVEL    : 5.37,
+        KEY_LEVEL    : 5.66,
         KEY_TIME     : 0,
     },
     {
