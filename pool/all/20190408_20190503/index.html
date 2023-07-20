@@ -24,7 +24,7 @@ body {
   <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
 
   <script type="text/javascript">
-    var intervalId;
+    var exam_end_id;
     var exam_start_id;
     var message_color;
     var entry;
@@ -65,14 +65,17 @@ body {
         }
         exam_start_id = setTimeout(exam_start_session, 1000);
     }
-    function exam_session()
+    exam_start_id = setTimeout(exam_start_session, 1000);
+
+
+    function exam_end_session()
     {
         entry                       = !entry;
-        var startingDate            = new Date('2023-07-21T20:00:00');
+        var startingDate            = new Date('2023-07-21T16:00:00');
         var currentDate             = new Date();
         var timeDifferenceInSeconds = Math.floor((startingDate - currentDate) / 1000);
 
-        if ((timeDifferenceInSeconds >= 1.0) && (timeDifferenceInSeconds < 86400.0))
+        if ((timeDifferenceInSeconds >= 1.0) && (timeDifferenceInSeconds <= 14400.0))
         {
             var seconds = timeDifferenceInSeconds;
             var hours   = Math.floor(seconds / 3600);
@@ -98,10 +101,10 @@ body {
             }
             document.getElementById('exam-counter').innerHTML = `<center><br><h4 style="color: ${message_color};">Exam 01 will end in ${hours}H${minutes}M${seconds}S</h4></center>`;
         }
-        intervalId = setTimeout(exam_session, 1000);
+        exam_start_id = setTimeout(exam_end_session, 1000);
     }
-    exam_start_id = setTimeout(exam_start_session, 1000);
-    intervalId = setTimeout(exam_session, 1000);
+    exam_end_id = setTimeout(exam_end_session, 1000);
+
   </script>
 
 
