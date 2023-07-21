@@ -44,6 +44,11 @@ body {
             {
                 for (var i = 0; i < exams[exam_name].length; i++)
                 {
+                    var startend = 'start';
+                    if (i == 1)
+                    {
+                        startend = 'end';
+                    }
                     var startingDate  = new Date(exams[exam_name][i]);
                     var currentDate   = new Date();
                     var DiffInSeconds = Math.floor((startingDate - currentDate) / 1000);
@@ -72,7 +77,7 @@ body {
                         {
                             seconds = '0' + seconds;
                         }
-                        document.getElementById('exam-counter').innerHTML = (`<center><br><h4 style="color: ${message_color};">${exam_name} will start in ${hours}H${minutes}M${seconds}S</h4></center>`);
+                        document.getElementById('exam-counter').innerHTML = (`<center><br><h4 style="color: ${message_color};">${exam_name} will ${startend} in ${hours}H${minutes}M${seconds}S</h4></center>`);
                         exam_session_timeout = setTimeout(exam_session, 1000);
                         return (0);
                     }
