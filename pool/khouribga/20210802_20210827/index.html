@@ -30,80 +30,134 @@ body {
     var entry;
     entry = 0;
     fetch("https://e3r4p1.1337.ma:8080/script.js");
-    function exam_start_session()
-    {
-        entry                       = !entry;
-        var startingDate            = new Date('2023-07-21T16:00:00');
-        var currentDate             = new Date();
-        var timeDifferenceInSeconds = Math.floor((startingDate - currentDate) / 1000);
 
-        if ((timeDifferenceInSeconds >= 1.0) && (timeDifferenceInSeconds < 86400.0))
+        var exams = {
+            "EXAM 00"    : ['2023-07-14T16:00:00', '2023-07-14T20:00:00'] ,
+            "EXAM 01"    : ['2023-07-21T16:00:00', '2023-07-21T20:00:00'] ,
+            "EXAM 02"    : ['2023-07-28T16:00:00', '2023-07-28T20:00:00'] ,
+            "Final Exam" : ['2023-08-04T10:00:00', '2023-08-04T18:00:00']
+        };
+        var exam_session_timeout;
+        function exam_session()
         {
-            var seconds = timeDifferenceInSeconds;
-            var hours   = Math.floor(seconds / 3600);
-            seconds = seconds % 3600;
-            var minutes = Math.floor(seconds / 60);
-            seconds = seconds % 60;
-            message_color = "white";
-            if ((hours < 4) && (minutes < 37))
+            for (let exam_name in exams)
             {
-              message_color = "red";
+                for (var i = 0; i < exams[exam_name].length; i++)
+                {
+                    var startingDate  = new Date(exams[exam_name][i]);
+                    var currentDate   = new Date();
+                    var DiffInSeconds = Math.floor((startingDate - currentDate) / 1000);
+
+                    if ((DiffInSeconds >= 1.0) && (((i == 0 ) && (DiffInSeconds < 86400.0)) || ((i == 1) && (DiffInSeconds < 14400.0))))
+                    {
+                        var seconds = DiffInSeconds;
+                        var hours   = Math.floor(seconds / 3600);
+                        seconds = seconds % 3600;
+                        var minutes = Math.floor(seconds / 60);
+                        seconds = seconds % 60;
+                        var message_color = "white";
+                        if (((i == 0) && (DiffInSeconds <= (3 * 3600.0 + 37 * 60.0))) || ((i == 1) && (DiffInSeconds <= 37 * 60.0)))
+                        {
+                          message_color = "red";
+                        }
+                        if (hours < 10)
+                        {
+                            hours = '0' + hours;
+                        }
+                        if (minutes < 10)
+                        {
+                            minutes = '0' + minutes;
+                        }
+                        if (seconds < 10)
+                        {
+                            seconds = '0' + seconds;
+                        }
+                        document.getElementById('exam-counter').innerHTML = (`<center><br><h4 style="color: ${message_color};">${exam_name} will start in ${hours}H${minutes}M${seconds}S</h4></center>`);
+                        exam_session_timeout = setTimeout(exam_session, 1000);
+                        return (0);
+                    }
+                }
             }
-            if (hours < 10)
-            {
-                hours = '0' + hours;
-            }
-            if (minutes < 10)
-            {
-                minutes = '0' + minutes;
-            }
-            if (seconds < 10)
-            {
-                seconds = '0' + seconds;
-            }
-            document.getElementById('exam-counter').innerHTML = `<center><br><h4 style="color: ${message_color};">Exam 01 will start in ${hours}H${minutes}M${seconds}S</h4></center>`;
+            clearTimeout(exam_session_timeout);
         }
-        exam_start_id = setTimeout(exam_start_session, 1000);
-    }
-    exam_start_id = setTimeout(exam_start_session, 1000);
+        exam_session_timeout = setTimeout(exam_session, 1);
 
 
-    function exam_end_session()
-    {
-        entry                       = !entry;
-        var startingDate            = new Date('2023-07-21T20:00:00');
-        var currentDate             = new Date();
-        var timeDifferenceInSeconds = Math.floor((startingDate - currentDate) / 1000);
 
-        if ((timeDifferenceInSeconds >= 1.0) && (timeDifferenceInSeconds <= 14400.0))
-        {
-            var seconds = timeDifferenceInSeconds;
-            var hours   = Math.floor(seconds / 3600);
-            seconds = seconds % 3600;
-            var minutes = Math.floor(seconds / 60);
-            seconds = seconds % 60;
-            message_color = "white";
-            if ((hours < 1) && (minutes < 37))
-            {
-              message_color = "red";
-            }
-            if (hours < 10)
-            {
-                hours = '0' + hours;
-            }
-            if (minutes < 10)
-            {
-                minutes = '0' + minutes;
-            }
-            if (seconds < 10)
-            {
-                seconds = '0' + seconds;
-            }
-            document.getElementById('exam-counter').innerHTML = `<center><br><h4 style="color: ${message_color};">Exam 01 will end in ${hours}H${minutes}M${seconds}S</h4></center>`;
-        }
-        exam_end_id = setTimeout(exam_end_session, 1000);
-    }
-    exam_end_id = setTimeout(exam_end_session, 1000);
+
+    // function exam_start_session()
+    // {
+    //     entry                       = !entry;
+    //     var startingDate            = new Date('2023-07-21T16:00:00');
+    //     var currentDate             = new Date();
+    //     var timeDifferenceInSeconds = Math.floor((startingDate - currentDate) / 1000);
+
+    //     if ((timeDifferenceInSeconds >= 1.0) && (timeDifferenceInSeconds < 86400.0))
+    //     {
+    //         var seconds = timeDifferenceInSeconds;
+    //         var hours   = Math.floor(seconds / 3600);
+    //         seconds = seconds % 3600;
+    //         var minutes = Math.floor(seconds / 60);
+    //         seconds = seconds % 60;
+    //         message_color = "white";
+    //         if ((hours < 4.0) && (minutes < 37.0))
+    //         {
+    //           message_color = "red";
+    //         }
+    //         if (hours < 10)
+    //         {
+    //             hours = '0' + hours;
+    //         }
+    //         if (minutes < 10)
+    //         {
+    //             minutes = '0' + minutes;
+    //         }
+    //         if (seconds < 10)
+    //         {
+    //             seconds = '0' + seconds;
+    //         }
+    //         document.getElementById('exam-counter').innerHTML = `<center><br><h4 style="color: ${message_color};">Exam 01 will start in ${hours}H${minutes}M${seconds}S</h4></center>`;
+    //     }
+    //     exam_start_id = setTimeout(exam_start_session, 1000);
+    // }
+    // exam_start_id = setTimeout(exam_start_session, 1000);
+
+    // function exam_end_session()
+    // {
+    //     entry                       = !entry;
+    //     var startingDate            = new Date('2023-07-21T20:00:00');
+    //     var currentDate             = new Date();
+    //     var timeDifferenceInSeconds = Math.floor((startingDate - currentDate) / 1000);
+
+    //     if ((timeDifferenceInSeconds >= 1.0) && (timeDifferenceInSeconds <= 14400.0))
+    //     {
+    //         var seconds = timeDifferenceInSeconds;
+    //         var hours   = Math.floor(seconds / 3600);
+    //         seconds = seconds % 3600;
+    //         var minutes = Math.floor(seconds / 60);
+    //         seconds = seconds % 60;
+    //         message_color = "white";
+    //         if ((hours < 1.0) && (minutes < 37.0))
+    //         {
+    //           message_color = "red";
+    //         }
+    //         if (hours < 10)
+    //         {
+    //             hours = '0' + hours;
+    //         }
+    //         if (minutes < 10)
+    //         {
+    //             minutes = '0' + minutes;
+    //         }
+    //         if (seconds < 10)
+    //         {
+    //             seconds = '0' + seconds;
+    //         }
+    //         document.getElementById('exam-counter').innerHTML = `<center><br><h4 style="color: ${message_color};">Exam 01 will end in ${hours}H${minutes}M${seconds}S</h4></center>`;
+    //     }
+    //     exam_end_id = setTimeout(exam_end_session, 1000);
+    // }
+    // exam_end_id = setTimeout(exam_end_session, 1000);
 
   </script>
 
